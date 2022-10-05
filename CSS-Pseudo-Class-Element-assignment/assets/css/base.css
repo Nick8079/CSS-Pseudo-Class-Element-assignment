@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.event-details p:nth-child(2) {
+    font-weight: bold;
+}

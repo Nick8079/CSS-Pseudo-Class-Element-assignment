@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: rgba(255, 255, 255 ,1);
+    background: radial-gradient(circle, rgba(52, 107, 108, 0.474) 0%, rgba(155, 140, 105, 0.3) 100%);
+
+    min-height: 100vh;
+    
+}
+    
+main{
+    max-width:1080px;
+}
+
+.layout-assignment-2{
+    display: grid;
+    grid: auto / repeat(9, 1fr);
+
+    width: 100%;
+
+    border-top: thick double black;
+    border-bottom: thick double black; 
+
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+   
+    text-align: center;
+
+}
+
+.layout-assignment-2 ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.typo-hero-assignment-1{
+    width: 80%;
+    margin: 0 auto;
+
+    font-family: 'Cormorant', serif;
+    font-size: 4rem;
+    font-weight: 300;
+    
+    text-transform: uppercase;
+    text-align: center;
+}

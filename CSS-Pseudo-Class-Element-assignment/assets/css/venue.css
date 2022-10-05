@@ -1,0 +1,73 @@
+.venue-name {
+    grid-row: 1;
+    grid-column: 1/ 5 ;
+    padding: 2em;
+    margin-top: 2em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.event-time {
+    grid-row: 1;
+    grid-column: 5 / 6;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-right: thin solid black;
+    border-left: thin solid black;
+
+}
+
+.event-name {
+    grid-row: 1;
+    grid-column: 6 / 10;
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    
+    font-size: 1rem;
+    text-transform: uppercase; 
+
+    font-family: 'Cormorant', serif;
+}
+
+.category {
+    grid-row: 2;
+    grid-column: 1/ 10;
+    padding: 0.5em;
+    font-size: 2.5em;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+}
+
+.contacts {
+    grid-row: 4;
+    grid-column: 1 / 10;
+    display: flex;
+    
+    border-top: var(--border-thin);
+    font-weight: 700;
+
+    border-top: thin solid black;
+  }
+  
+  .contacts p {
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contacts p:first-child{
+    border-right: thin solid black;
+  }
+
+
+  

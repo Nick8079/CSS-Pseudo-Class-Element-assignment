@@ -1,0 +1,15 @@
+.circle{
+    z-index: -10;
+
+    grid-row: 2/span 3;
+    grid-column: 4/ 7;
+
+    width: 600px;
+    height: 600px;
+
+    margin: auto;
+    
+    background-color: rgb(100, 195, 200);
+    border-radius: 100%;
+
+}
